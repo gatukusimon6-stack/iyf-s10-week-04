@@ -1,0 +1,14 @@
+h2 {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: gold;
+    background: linear-gradient(to right,skyblue, lightgreen);
+    border-bottom-style: double
+}
+
+body {background-color: grey
+}
