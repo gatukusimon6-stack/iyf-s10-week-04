@@ -1,4 +1,4 @@
-h2 {
+h1 {     color: gold;
     margin: 10px;
     padding: 5px;
     font-family: 'Arial', sans-serif;
@@ -12,3 +12,43 @@ h2 {
 
 body {background-color: grey
 }
+ 
+.skill {
+    color: chocolate;
+    background-color: rgb(225, 230, 173);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+div { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contact {
+    color: white;
+    background-color: rgb(10, 47, 78);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    text-align: flex-start;
+    justify-content: flex-start;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}    
